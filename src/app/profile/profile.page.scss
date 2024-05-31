@@ -1,0 +1,48 @@
+.titulo{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 25px;
+}
+
+div svg{
+height: 100px;
+width: 80px;
+margin-top: -50px;
+}
+
+.content-inner {
+height: 100%; /* Establecer la altura del contenido interno al 100% del contenedor principal */
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+////Adaptacion de Pantalla///
+.content-wrapper {
+height: 100vh; /* Establecer la altura del contenedor principal al 100% del alto de la ventana del navegador */
+overflow-y: auto; /* Permitir desplazamiento vertical si el contenido excede el tamaño de la pantalla */
+}
+
+.card{
+background: aqua;
+font-family: 'Times New Roman', Times, serif;
+color: rgb(0, 0, 0);
+font-size: 50px;
+}
+
+
+.caracteristica{
+text-align: center;
+border-radius: 60px;
+border:0px solid  rgb(0, 0, 0);
+font-size: 20px;
+font-family: 'Courier New', Courier, monospace;
+color: white;
+}
+
+.caracteristica1{
+background: rgb(0, 229, 255);
+border:2px solid  rgb(71, 202, 202);
+}
+
+
+

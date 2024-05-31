@@ -1,0 +1,136 @@
+.titulo{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 24px;
+}
+
+div svg{
+height: 100px;
+width: 80px;
+margin-top: -50px;
+}
+
+.content-inner {
+height: 100%; /* Establecer la altura del contenido interno al 100% del contenedor principal */
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+////Adaptacion de Pantalla///
+.content-wrapper {
+height: 100vh; /* Establecer la altura del contenedor principal al 100% del alto de la ventana del navegador */
+overflow-y: auto; /* Permitir desplazamiento vertical si el contenido excede el tamaño de la pantalla */
+}
+
+
+/* Reduce search bar width */
+.col2 ion-searchbar {
+width: 70%;
+}
+
+/* Adjust card aspect ratio, margin, and text size */
+ion-card {
+height: 250px; /* Adjust height */
+margin: 5px; /* Adjust margin */
+}
+
+ion-card-title, ion-card-header {
+font-size: 14px; /* Adjust font size */
+}
+
+/* Truncate long text lines with ellipsis */
+ion-card-title {
+overflow: hidden;
+text-overflow: ellipsis;
+}
+
+/* Adjust image size (if needed) */
+ion-img {
+height: 100px; /* Adjust height */
+}
+
+.button-total {
+font-size: 14px; /* Cambiar el tamaño de la tipografía */
+text-transform: uppercase; /* Texto en mayúsculas */
+font-weight: bold; /* Fuente en negrita o bold */
+color: #ffffff; /* Color del texto */
+border-radius: 5px; /* Borde del botón */
+background-color: #0015ffd8; /* Color de fondo */
+padding: 18px 30px; /* Relleno del botón */
+position: fixed;
+width: 100%;
+bottom: 0px;
+border: #00eeff 3px solid;
+}
+
+.button-total:hover {
+background-color: #00eeff; /* Color de fondo al pasar el cursor */
+box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+transform: translateY(-7px);
+color: black;
+}
+
+.centered-p {
+width: 300px;
+margin-top: 13px;
+}
+
+.is {
+font-size: 25px;
+position: absolute;
+right: 6%;
+bottom: 30%;
+}
+
+.precio {
+font-size: 16px;
+}
+
+.chip {
+float: right;
+bottom: -30%;
+}
+
+.md .centered-p {
+text-align: center;
+margin-left: -15%;
+}
+
+.vermas:hover {
+background: aqua;
+}
+
+
+
+
+
+
+
+
+
+.card-style {
+    position: relative;
+    background-color: transparent;
+    border: none;
+  }
+  
+  ion-card-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.5); /* Ajusta la opacidad del fondo del contenido */
+  }
+  
+  h1, p {
+    color: white; /* Color del texto */
+    margin: 0;
+  }
+  
+  .release-date-chip {
+    background-color: #00eeff;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
